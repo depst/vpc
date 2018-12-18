@@ -2,7 +2,7 @@
 
 copyright:
   years: 2018
-lastupdated: "2018-07-18"
+lastupdated: "2018-12-18"
 
 ---
 
@@ -155,18 +155,6 @@ Using the floating IP address that you created, ping your instance to make sure 
 Since you created your instance with a public SSH key, you can now connect to it directly by using your private key:
 
 `ssh -i <path-to-private-key-file> root@<public-ip-address>`
-
-## Monitoring your instance
-
-You can monitor the CPU, volume, memory, and network usage of your instance over time.
-
-To monitor your instance:
-
-1. Click **Virtual server instance** in the navigation pane.
-1. Click the name of your instance.
-1. Click **Monitoring** in the navigation pane. 
-
-For an activity log that shows when the instance was started, stopped, or rebooted, click **Activity** in the navigation pane.
 
 ## Creating a VPN
 You can create a virtual private network (VPN) so your VPC can connect securely to another private network, such as an on-premises network or another VPC. 
