@@ -1111,7 +1111,7 @@ Stop a server instance
 
 ### `ibmcloud is instance-reboot`
 
-Reboot a server instance
+Restart the operating system of an instance.
 
 **Syntax**
 
@@ -1126,7 +1126,7 @@ Reboot a server instance
 
 ### `ibmcloud is instance-reset`
 
-Reset a server instance
+Power off and then power on an instance.
 
 **Syntax**
 
